@@ -2,6 +2,7 @@ from lxml import html
 from lxml.etree import XPath as xpath
 import requests
 
+
 page = requests.get('http://www.nrb.org.np/fxmexchangerate.php')
 html_content = html.fromstring(page.content)
 
