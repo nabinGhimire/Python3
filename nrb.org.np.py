@@ -20,4 +20,5 @@ for i in range(18,len(currencies)-8,4):
     print('-----')
     print("Unit", currencies[i+1].strip())
     print("Buyiing", currencies[i+2].strip())
-    print("Selling",cu
+    print("Selling",currencies[i+3].strip())
+    print('-----')
